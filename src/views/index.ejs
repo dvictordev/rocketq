@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Criar sala - Rocket.Q</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <!-- viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS styles -->   
+    <link rel="stylesheet" href="/style/home.css">
+    <link rel="stylesheet" href="/style/global.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="home" class="content">
+        <header>
+            <a href="/">
+            <img src="/images/logo.svg" alt="rocket.1 logo" />
+            </a>
+        </header>
+
+        <div id="bg">
+            <div class="ball top"></div>
+            <div class="ball bottom"></div>
+        </div>
+        <main>
+            <div class="container">
+
+                <%- include (`parts/${page}`) %>
+
+            </div>
+        </main>
+    </div>
+</body>
+</html>s
